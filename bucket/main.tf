@@ -7,6 +7,8 @@ resource "aws_s3_bucket" "cm-test-bucket" {
     Name = "My CM Test Bucket"
     Environment = "Test"
   }
+
+
 }
 
 resource "aws_s3_bucket" "cm-dev-bucket" {
